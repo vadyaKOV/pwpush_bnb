@@ -12083,7 +12083,3 @@ textarea.form-control-lg {
 .table-light {
   --bs-table-color: #333;
 }
-
-footer {
-    display: none;
-}

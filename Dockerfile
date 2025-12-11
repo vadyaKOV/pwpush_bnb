@@ -9,5 +9,6 @@ COPY logo-transparent-sm-bare.png app/assets/images/logo-transparent-sm-bare.png
 ENV PWP__THEME=default
 ENV PWP_PRECOMPILE=true
 ENV PWP__BRAND__SHOW_FOOTER_MENU=false
+ENV PWP__ENABLE_LOGINS = true
 
 RUN SECRET_KEY_BASE_DUMMY=1 bundle exec rails assets:precompile
